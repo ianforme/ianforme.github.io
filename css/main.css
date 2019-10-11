@@ -33,12 +33,13 @@ a {
 h1 {
     font-size: 2.5em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    line-height: 0.7;
 }
 h2 {
     font-size:1.6em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     color: #990;
-    line-height: 0.1;
+    line-height: 0.3;
 }
 p {
     font-size: 1.2em;
@@ -47,4 +48,7 @@ p {
 footer {
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
+}
+hr {
+    border: 0.5px solid #d5d5d5;
 }
