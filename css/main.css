@@ -12,17 +12,33 @@ nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
 }
-ul {
-    font-size: 1.05em;
-}
-ul.posts { 
-    margin: 20px auto 40px; 
-    font-size: 1.3em;
+ul.items {
+    padding: 0;
+    list-style-position: inside;
 }
 
-ul.posts li {
-    list-style: none;
+ul.cv-items {
+    margin: 0;
+    padding: 0;
+    list-style-position: inside;
 }
+
+#container {
+    display: inline;
+}
+
+#title {
+    float: left;
+}
+
+#date {
+    float: right;
+}
+
+#content {
+    clear: both;
+}
+
 a:hover {
     text-decoration: underline;
 }
@@ -33,17 +49,23 @@ a {
 h1 {
     font-size: 2.5em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    line-height: 0.7;
+    margin-bottom: 5px;
+
 }
 h2 {
     font-size:1.6em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    margin-bottom: 2px;
     color: #990;
-    line-height: 0.3;
 }
-p {
-    font-size: 1.2em;
-    line-height: 1.2em;
+h3 {
+    margin-top: 0;
+    margin-bottom: 2px;
+}
+h4 {
+    margin-top: 0;
+    margin-bottom: 2px;
+    color: #999;
 }
 footer {
     border-top: 1px solid #d5d5d5;
