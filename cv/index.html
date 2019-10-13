@@ -12,10 +12,21 @@
     		</ul>
 		</nav>
 		<div class="cv">
-			<h1>Sun Weiran</h1>
-			<span>sunwrn@gmail.com</span><br>
-			<span>linkedin.com/in/sun-weiran</span><br>
-			<span>Chinese Citizen, Singapore Permanent Resident</span><br>
+			<div>
+				<div id='title'>
+					<h1>Sun Weiran</h1>
+					<h3>Data Scientist @ NCS</h3><br>
+					<br>
+					<span>Email: <a href="mailto:sunwrn@gmail.com">sunwrn@gmail.com</a></span><br>
+					<span>LinkedIn: <a href="linkedin.com/in/sun-weiran">linkedin.com/in/sun-weiran</a></span><br>
+					<span>Chinese Citizen, Singapore Permanent Resident</span><br>
+				</div>
+
+				<div id='date'>
+					<img src="../img/portrait.jpg" alt="Portrait">
+				</div>
+			</div>
+			<hr id='content'>
 			<h2>Education</h2>
 			<div id='container'>
 				<h3 id='title'>National University of Singapore</h3>
@@ -25,15 +36,100 @@
 					<li>Dean's Lister (4.35/5)</li>
 					<li>Certificate of Distinction in Applied Analytics Knowledge Area</li>
 					<li>Certificate of Distinction in Data Science Knowledge Area</li>
-					<li>Science and Technology Undergraduate Scholarship</li>
+					<li>Science &amp; Technology Undergraduate Scholarship</li>
 				</ul>
 			</div>	
 			<hr>
 			<h2>Work Experiences</h2>
+			<div id='container'>
+				<h3 id='title'>NCS</h3>
+				<h4 id='date'>2018 Aug - Now</h4>
+				<h4 id='content'>Data Scientist</a></h4>
+				<ul class="cv-items"> 
+					<li>Delivered project for Changi Aiport to predict for number of passengers on every incoming flights</li>
+						<ul>
+							<li>Analysed data from more than 1,000 flights in past 2.5 years</li>
+							<li>Built customized machine learning models (Xgboost) for different types of airplanes. The model improved accuracy from the existing solution by 20%</li>
+							<li>Designed and built Tableau dashboards airport staff to faciliate in their operation plannings</li>
+							<li>Proposed improvements and actionables for the next phase to operationalise this project</li>
+						</ul>
+					<li>Delivered project for Changi Airport to develop a near real time predictive platform for taxi operators</li>
+						<ul>
+							<li>Designed the overall solution architecture</li>
+							<li>Integrated and analysed data from different sources systems including flight control, taxi and passenger sensors</li>
+							<li>Engineered end-to-end data pipeline from data extraction to near-real time prediction</li>
+							<li>Built the most fundamental models (random forest and quantile regression) to predict for future taxi demands for each terminal in Changi Airport. These models have 80% accuracy</li>
+						</ul>
+					<li>Delivered project for Land Transport Authority to predict for traffic speed and volume</li>
+						<ul>
+							<li>Engineered and maintained data pipelines for data extraction, model training and prediction</li>
+							<li>Analyese ERP1 data and built models (linear regression, random forest) for different roads, vehicles and date types</li>
+							<li>Designed and built Tableau dashboards for tariff planners</li>
+						</ul>
+					<li>Volunteered to join the recruitment committee to enhance the hiring process of the team</li>
+				</ul>
+			</div>
+			<br>
+			<div id='container'>
+				<h3 id='title'>Dentsu Aegis Network Global Data Innovation Centre</h3>
+				<h4 id='date'>2017 Jan - 2017 Jun</h4>
+				<h4 id='content'>Data Engineer Intern</a></h4>
+				<ul class="cv-items"> 
+					<li>Scrapped hotel related Google advertisement slogans using Selenium and trained LSTM neural network models
+						for generating advertisement slogans from input keywords and unique selling points</li>
+					<li>Built interactive chatbot prototype using Python, which can understand country-specific questions like "Who is the leader of Singapore?".
+						Input questions are processed (text normalisation, part-of-speech tagging, name entity recognition) and the most relevant answers 
+						are searched from a knowledge graph and ranked by relevancy</li>
+					<li>Built predictive models (random forest and logistic regression) to predict customer conversion ratebased on their online browsing behaviours</li>
+					<li>Improved web application computation efficiency by 600% by implementing multi-threading algorithms</li>
+				</ul>
+			</div>
+			<br>
+			<div id='container'>
+				<h3 id='title'>ORT Solutions</h3>
+				<h4 id='date'>2016 May - 2016 Jul</h4>
+				<h4 id='content'>Data Analyst Intern</a></h4>
+				<ul class="cv-items"> 
+					<li>Performed ETL on large datasets in terabytes using Python and Google Big Query</li>
+					<li>Analysed client campaign data collected from WiFi devices and social network. 
+						Conducted network analysis over thousands of participants using Gephi</li>
+					<li>Initiated customer profile analysis using WiFi data for shopping malls. Different groups of customers, i.e. frequent vs non-frequent,
+						lunch time shoppers vs mid night shoppers were identified from their visiting patterns</li>
+					<li>Enhanced daily operation efficiency by automating routine paperwork using Python 
+						which reduced report generation time from 15 minutes to 2 minutes</li>
+				</ul>
+			</div>
 			<hr>
 			<h2>Personal Projects</h2>
+			<div id='container'>
+				<h3 id='title'>Codimage - Python Library for Code Encryption</h3>
+				<h4 id='date'>2019 Aug</h4>
+				<h4 id='content'><a href="https://pypi.org/project/codimage/">https://pypi.org/project/codimage/</a></h4>
+				<ul class="cv-items"> 
+					<li>Codimage is a public Python library available through pip installation, 
+						that encrypts text files, i.e. Python scripts, into a picture's pixels without changing its original look
+						and protects sensitive information with passwords</li>
+				</ul>
+			</div>
+			<br>
+			<div id='container'>
+				<h3 id='title'>WeChatBot - Q&amp;A Assistant Chatbot on WeChat</h3>
+				<h4 id='date'>2019 May - 2019 Jun</h4>
+				<h4 id='content'><a href="https://github.com/ianforme/wechatrobot/">https://github.com/ianforme/wechatrobot/</a></h4>
+				<ul class="cv-items"> 
+					<li>WeChatBot is built on wxpy framework and listens to WeChat conversations. This chatbot can be hosted on any WeChat accounts.
+						Once certain keywords or patterns are detected, pre-built functions will be triggered to respond to users</li>
+					<li>The chatbot is able to
+						<ul>
+						<li>retrieve weather forecast, news and bus arrival time from various publicly available APIs</li>
+						<li>scrape job openings from JobStreet.com using Selenium, 
+							process raw text into structured format, create PDF report and email to user</li>
+						</ul>
+					</li>
+				</ul>
+			</div>
 			<hr>
-			<h2>Certifications</h2>
+			<h2>Certificates</h2>
 			<div id='container'>
 				<h3 id='title'>Big Data Specialization</h3>
 				<h4 id='date'>2019 Oct</h4>
@@ -48,13 +144,13 @@
 				</ul>
 			</div>
 			<hr>
-			<h2>Skills</h2>
+			<h2>Technical Skills</h2>
 			<ul class="cv-items"> 
 				<li>Programming Languages: Python, R, Java</li>
 				<li>Databases: Oracle SQL, Neo4j</li>
 				<li>Visualisation: Tableau, HTML, CSS</li>
 				<li>Version Control: Git, SVN</li>
-				<li>Toolkits &amp; Packages: Numpy, Pandas, Scikit-learn, Statsmodels, Xgboost, Selenium, Matplotlib, Seaborn</li>
+				<li>Toolkits &amp; Packages: Numpy, Pandas, Scikit-learn, Statsmodels, Xgboost, Keras, Selenium, Matplotlib, Seaborn, Yellowbrick</li>
 				
 			</ul>
 			<hr>
@@ -69,8 +165,8 @@
 			<ul class="cv-items"> 
 				<li>Chinese debate: former team captain of NUS Chinese Debate Team. Won multiple international championships during college time</li>
 			</ul>
-
 		</div>
+		<br>
 		<footer>
     		<ul>
         		<li><a href="mailto:sunwrn@gmail.com">Email</a></li>
